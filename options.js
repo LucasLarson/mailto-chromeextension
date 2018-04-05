@@ -183,7 +183,7 @@ var initializeServicesList = function() {
     $(document.createTextNode("("))
       .appendTo(span);
     $("<a>")
-      .attr("href", "https://code.google.com/p/mailto-chromeextension/wiki/AddCustomUrl")
+      .attr("href", "https://github.com/Famlam/mailto-chromeextension/blob/master/docs/AddCustomUrl.md")
       .attr("target", "_blank")
       .attr("title", chrome.i18n.getMessage("getHelpTitle"))
       .text(chrome.i18n.getMessage("getHelp"))
